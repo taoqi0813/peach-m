@@ -14,7 +14,7 @@ import "peach-m/src/Styles/index.css";
 ```
 
 ### 组件
-1. Switch 开关
+1. [Switch 开关](./src/Components/switch/SWITCH.md)
 + 基础用法  
 绑定v-model到一个Boolean类型的变量。
 ```
