@@ -106,3 +106,26 @@ export default {
   }
 }; 
 ```
+
+## 属性 Attributes  
+|参数|说明|类型|可选值|默认值|
+|----|----|----|----|----|
+|value / v-model|绑定值|boolean / string / number|——|——|
+|disabled|是否禁用|boolean|——|false|
+|size|开关尺寸|string|large / normal / small / mini|normal|
+|text-position|文字描述显示开关及类型|string|outside / inside|——|
+|font-size|文字描述字号，仅有效于text-position="outside"时|string|——|14px|
+|on-text|打开时的文字描述|string|——|on|
+|off-text|关闭时的文字描述|string|——|off|
+|on-color|打开时的背景色|string|——|#409EFF|
+|off-color|关闭时的背景色|string|——|#C0CCDA|
+|on-value|打开时的值|boolean / string / number|——|true|
+|off-value|关闭时的值|boolean / string / number|——|false|
+|name|对应的原生 name 属性|string|——|——|
+|id|对应的原生 id 属性|string|——|——|
+
+## 事件 Events
+|事件名称|说明|返回值|
+|----|----|----|
+|change|状态发生变化时的回调函数|新状态的值|
+|input|状态发生变化时的回调函数|新状态的值|
