@@ -1,0 +1,29 @@
+{
+  "name": "peach-m",
+  "version": "1.0.1",
+  "description": "基于Vue的移动端ui组件库",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Vue",
+    "移动端",
+    "ui"
+  ],
+  "author": "taoqi0813",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:taoqi0813/peach-m.git"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "postcss": "^7.0.23",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.4",
+    "webpack": "^4.41.2"
+  }
+}

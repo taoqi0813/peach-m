@@ -1,0 +1,182 @@
+.p-switch {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    font-size: 14px;
+    vertical-align: middle
+}
+
+.p-switch.is-disabled .p-switch__core, .p-switch.is-disabled .p-switch__label {
+    cursor: not-allowed
+}
+
+.p-switch__core, .p-switch__label {
+    display: flex;
+    align-items: center;
+    cursor: pointer
+}
+
+.p-switch__label {
+    -webkit-transition: .2s;
+    transition: .2s;
+    font-weight: 500;
+    color: #303133
+}
+
+.p-switch__label.is-active {
+    color: #409EFF
+}
+
+.p-switch__label--left {
+    margin-right: 10px
+}
+
+.p-switch__label--right {
+    margin-left: 10px
+}
+
+.p-switch__input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    margin: 0
+}
+
+.p-switch__core {
+    margin: 0;
+    position: relative;
+    width: 60px;
+    height: 30px;
+    border: 1px solid #DCDFE6;
+    outline: 0;
+    border-radius: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #DCDFE6;
+    -webkit-transition: border-color .3s, background-color .3s;
+    transition: border-color .3s, background-color .3s
+}
+
+.p-switch__core.p-switch__core--large{
+    width: 70px;
+    height: 35px;
+}
+
+.p-switch__core.p-switch__core--small{
+    width: 50px;
+    height: 25px;
+}
+
+.p-switch__core.p-switch__core--mini{
+    width: 40px;
+    height: 20px;
+}
+
+.p-switch__label--off--inside,
+.p-switch__label--on--inside {
+    width: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.p-switch__label--off--inside{
+    right: 0;
+}
+
+.p-switch__core.p-switch__core--large .p-switch__label--off--inside,
+.p-switch__core.p-switch__core--large .p-switch__label--on--inside{
+    font-size: 12px;
+}
+
+.p-switch__core .p-switch__label--off--inside,
+.p-switch__core .p-switch__label--on--inside{
+    font-size: 12px;
+}
+
+.p-switch__core.p-switch__core--small .p-switch__label--off--inside,
+.p-switch__core.p-switch__core--small .p-switch__label--on--inside{
+    font-size: 12px;
+}
+
+.p-switch__core.p-switch__core--mini .p-switch__label--off--inside,
+.p-switch__core.p-switch__core--mini .p-switch__label--on--inside{
+    font-size: 10px;
+}
+
+.p-switch__core:after {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    border-radius: 100%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    width: 26px;
+    height: 26px;
+    background-color: #FFF
+}
+
+.p-switch__core.p-switch__core--large:after{
+    width: 31px;
+    height: 31px;
+}
+
+.p-switch__core.p-switch__core--small:after{
+    width: 21px;
+    height: 21px;
+}
+
+.p-switch__core.p-switch__core--mini:after{
+    width: 16px;
+    height: 16px;
+}
+
+.p-switch.is-checked .p-switch__core {
+    border-color: #409EFF;
+    background-color: #409EFF
+}
+
+.p-switch.is-checked .p-switch__core::after {
+    left: 100%;
+    margin-left: -27px
+}
+
+.p-switch.is-checked .p-switch__core.p-switch__core--large::after {
+    left: 100%;
+    margin-left: -32px
+}
+
+.p-switch.is-checked .p-switch__core.p-switch__core--small::after {
+    left: 100%;
+    margin-left: -22px
+}
+
+.p-switch.is-checked .p-switch__core.p-switch__core--mini::after {
+    left: 100%;
+    margin-left: -17px
+}
+
+.p-switch.is-disabled {
+    opacity: .6
+}
+
+.p-switch--wide .p-switch__label.p-switch__label--left span {
+    left: 10px
+}
+
+.p-switch--wide .p-switch__label.p-switch__label--right span {
+    right: 10px
+}
+
+.p-switch .label-fade-enter, .p-switch .label-fade-leave-active {
+    opacity: 0
+}
