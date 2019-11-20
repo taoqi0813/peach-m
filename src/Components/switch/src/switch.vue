@@ -90,11 +90,11 @@ export default {
     },
     onColor: {
       type: String,
-      default: ""
+      default: "#409EFF"
     },
     offColor: {
       type: String,
-      default: ""
+      default: "#C0CCDA"
     },
     onValue: {
       type: [Boolean, String, Number],
