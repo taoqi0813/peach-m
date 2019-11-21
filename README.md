@@ -14,7 +14,8 @@ import "peach-m/src/Styles/index.css";
 ```
 
 ### 组件
-1. [Switch 开关](./src/Components/switch/SWITCH.md)
+1. [Switch 开关](./md/SWITCH.md)
+2. [Icon 图标](./md/ICON.md)
 
 ### 版本记录
 |  版本号   | 更新日期  | 新增功能  |
