@@ -1,6 +1,6 @@
 {
   "name": "peach-m",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "基于Vue的移动端ui组件库",
   "main": "src/index.js",
   "scripts": {
@@ -23,7 +23,6 @@
     "babel-loader": "^7.1.5",
     "css-loader": "^3.2.0",
     "postcss": "^7.0.23",
-    "style-loader": "^1.0.0",
     "vue": "^2.6.10",
     "vue-hot-reload-api": "^2.3.4",
     "vue-style-loader": "^4.1.2",
