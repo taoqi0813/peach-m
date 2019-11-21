@@ -58,7 +58,6 @@ import Focus from "../../../Mixins/focus";
 
 export default {
   name: "PSwitch",
-  mixins: [Focus("input")],
   props: {
     value: {
       type: [Boolean, String, Number],
